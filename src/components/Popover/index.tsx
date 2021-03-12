@@ -95,7 +95,7 @@ const PopoverOnBottom = styled.span`
     }
 `;
 
-const PopoverOnLeft = styled.span`
+const PopoverOnRight = styled.span`
     visibility: hidden;
     min-width: 180px;
     background-color: #fef8e3;
@@ -137,7 +137,7 @@ const PopoverOnLeft = styled.span`
         color: #39464d;
     }
 `;
-const PopoverOnRight = styled.span`
+const PopoverOnLeft = styled.span`
     visibility: hidden;
     min-width: 180px;
     background-color: #fef8e3;

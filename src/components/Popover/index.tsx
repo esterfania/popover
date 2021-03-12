@@ -46,7 +46,7 @@ const PopoverOnTop = styled.span`
         border-color: #fef8e3 transparent transparent transparent;
     }
 
-    title {
+    p {
         font-size: 1.125rem;
         font-weight: 700;
         display: block;
@@ -87,7 +87,7 @@ const PopoverOnBottom = styled.span`
         border-color: transparent transparent #fef8e3 transparent;
     }
 
-    title {
+    p {
         font-size: 1.125rem;
         font-weight: 700;
         display: block;
@@ -130,7 +130,7 @@ const PopoverOnLeft = styled.span`
         border-color: transparent #fef8e3 transparent transparent;
     }
 
-    title {
+    p {
         font-size: 1.125rem;
         font-weight: 700;
         display: block;
@@ -173,7 +173,7 @@ const PopoverOnRight = styled.span`
         border-color: transparent transparent transparent #fef8e3;
     }
 
-    title {
+    p {
         font-size: 1.125rem;
         font-weight: 700;
         display: block;
@@ -196,22 +196,22 @@ export function PopoverContent(
 ) {
     return props.position === 'top' ? (
         <PopoverOnTop>
-            <title>{props.title}</title>
+            <p>{props.title}</p>
             {props.children}
         </PopoverOnTop>
     ) : props.position === 'bottom' ? (
         <PopoverOnBottom>
-            <title>{props.title}</title>
+            <p>{props.title}</p>
             {props.children}
         </PopoverOnBottom>
     ) : props.position === 'left' ? (
         <PopoverOnLeft>
-            <title>{props.title}</title>
+            <p>{props.title}</p>
             {props.children}
         </PopoverOnLeft>
     ) : (
         <PopoverOnRight>
-            <title>{props.title}</title>
+            <p>{props.title}</p>
             {props.children}
         </PopoverOnRight>
     );

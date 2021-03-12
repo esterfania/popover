@@ -58,8 +58,8 @@ export default function Home() {
                     </PopoverContent>
                 </PopoverWrapper>
                 <PopoverWrapper>
-                    <LinkButton href="#">Left</LinkButton>
-                    <PopoverContent title="Left title" position="left">
+                    <LinkButton href="#">Right</LinkButton>
+                    <PopoverContent title="Right title" position="right">
                         <span>
                             Lorem Ipsum is simply dummy text of the printing and typesetting
                             industry.
@@ -80,8 +80,8 @@ export default function Home() {
                 </PopoverWrapper>
 
                 <PopoverWrapper>
-                    <LinkButton href="#">Right</LinkButton>
-                    <PopoverContent title="Right title" position="right">
+                    <LinkButton href="#">Left</LinkButton>
+                    <PopoverContent title="Left title" position="left">
                         <span>
                             Lorem Ipsum is simply dummy text of the printing and typesetting
                             industry.

@@ -39,7 +39,6 @@ export default function Home() {
             box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.037);
             backdrop-filter: blur(4px);
             -webkit-backdrop-filter: blur(4px);
-            border-radius: 10px;
             border: 1px solid #bc85bd;
         }
     `;

@@ -151,7 +151,7 @@ const PopoverOnLeft = styled.span`
     right: 110%;
     margin-right: 1rem;
     font-size: 1rem;
-    margin-top: 2rem;
+    margin-top: 1rem;
 
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.04), 0px -1px 4px rgba(0, 0, 0, 0.06),
         0px 1px 0.8px rgba(0, 0, 0, 0.02);

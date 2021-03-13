@@ -3,6 +3,14 @@ import styled from 'styled-components';
 import { PopoverContent, PopoverWrapper } from '../components/Popover';
 
 export default function Home() {
+    const Container = styled.div`
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    `;
+
     const HomeWrapper = styled.div`
         display: flex;
         justify-content: center;
@@ -10,9 +18,16 @@ export default function Home() {
     `;
 
     const LinkButton = styled.a`
+        color: #bc85bd;
+        &:hover {
+            opacity: 0.8;
+        }
+    `;
+
+    const Button = styled(LinkButton)`
         padding: 1rem;
         text-decoration: none;
-        border: 1px solid rgba(225, 193, 225, 0.757);
+        border: 1px solid #bc85bd;
         border-radius: 8px;
         display: block;
         text-align: center;
@@ -25,16 +40,8 @@ export default function Home() {
             backdrop-filter: blur(4px);
             -webkit-backdrop-filter: blur(4px);
             border-radius: 10px;
-            border: 1px solid rgba(225, 193, 225, 0.757);
+            border: 1px solid #bc85bd;
         }
-    `;
-
-    const Container = styled.div`
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        height: 100vh;
     `;
 
     const TextWrapper = styled.div`
@@ -48,45 +55,45 @@ export default function Home() {
             </TextWrapper>
             <HomeWrapper>
                 <PopoverWrapper>
-                    <LinkButton href="#">Top</LinkButton>
+                    <Button href="#">Top</Button>
                     <PopoverContent title="Top title" position="top">
                         <span>
                             Lorem Ipsum is simply dummy text of the printing and typesetting
                             industry.
                         </span>
-                        <a href="#">Lorem Ipsum</a>
+                        <LinkButton href="#">Lorem Ipsum</LinkButton>
                     </PopoverContent>
                 </PopoverWrapper>
                 <PopoverWrapper>
-                    <LinkButton href="#">Right</LinkButton>
+                    <Button href="#">Right</Button>
                     <PopoverContent title="Right title" position="right">
                         <span>
                             Lorem Ipsum is simply dummy text of the printing and typesetting
                             industry.
                         </span>
-                        <a href="#">Lorem Ipsum</a>
+                        <LinkButton href="#">Lorem Ipsum</LinkButton>
                     </PopoverContent>
                 </PopoverWrapper>
 
                 <PopoverWrapper>
-                    <LinkButton href="#">Bottom</LinkButton>
+                    <Button href="#">Bottom</Button>
                     <PopoverContent title="Bottom title" position="bottom">
                         <span>
                             Lorem Ipsum is simply dummy text of the printing and typesetting
                             industry.
                         </span>
-                        <a href="#">Lorem Ipsum</a>
+                        <LinkButton href="#">Lorem Ipsum</LinkButton>
                     </PopoverContent>
                 </PopoverWrapper>
 
                 <PopoverWrapper>
-                    <LinkButton href="#">Left</LinkButton>
+                    <Button href="#">Left</Button>
                     <PopoverContent title="Left title" position="left">
                         <span>
                             Lorem Ipsum is simply dummy text of the printing and typesetting
                             industry.
                         </span>
-                        <a href="#">Lorem Ipsum</a>
+                        <LinkButton href="#">Lorem Ipsum</LinkButton>
                     </PopoverContent>
                 </PopoverWrapper>
             </HomeWrapper>

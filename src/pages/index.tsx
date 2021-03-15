@@ -22,6 +22,9 @@ export default function Home() {
         &:hover {
             opacity: 0.8;
         }
+        &:visited {
+            color: #906391;
+        }
     `;
 
     const Button = styled(LinkButton)`
@@ -54,45 +57,73 @@ export default function Home() {
             </TextWrapper>
             <HomeWrapper>
                 <PopoverWrapper>
-                    <Button href="#">Top</Button>
-                    <PopoverContent title="Top title" position="top">
+                    <Button href="#" role="button">
+                        Top
+                    </Button>
+                    <PopoverContent
+                        title="Top title"
+                        position="top"
+                        aria-label="Informações em tooltip">
                         <span>
                             Lorem Ipsum is simply dummy text of the printing and typesetting
                             industry.
                         </span>
-                        <LinkButton href="#">Lorem Ipsum</LinkButton>
+                        <LinkButton href="#" role="button">
+                            Lorem Ipsum
+                        </LinkButton>
                     </PopoverContent>
                 </PopoverWrapper>
                 <PopoverWrapper>
-                    <Button href="#">Right</Button>
-                    <PopoverContent title="Right title" position="right">
+                    <Button href="#" role="button">
+                        Right
+                    </Button>
+                    <PopoverContent
+                        title="Right title"
+                        position="right"
+                        aria-label="Informações em tooltip">
                         <span>
                             Lorem Ipsum is simply dummy text of the printing and typesetting
                             industry.
                         </span>
-                        <LinkButton href="#">Lorem Ipsum</LinkButton>
+                        <LinkButton href="#" role="button">
+                            Lorem Ipsum
+                        </LinkButton>
                     </PopoverContent>
                 </PopoverWrapper>
 
                 <PopoverWrapper>
-                    <Button href="#">Bottom</Button>
-                    <PopoverContent title="Bottom title" position="bottom">
+                    <Button href="#" role="button">
+                        Bottom
+                    </Button>
+                    <PopoverContent
+                        title="Bottom title"
+                        position="bottom"
+                        aria-label="Informações em tooltip">
                         <span>
                             Lorem Ipsum is simply dummy text of the printing and typesetting
                             industry.
                         </span>
-                        <LinkButton href="#">Lorem Ipsum</LinkButton>
+                        <LinkButton href="#" role="button">
+                            Lorem Ipsum
+                        </LinkButton>
                     </PopoverContent>
                 </PopoverWrapper>
 
                 <PopoverWrapper>
-                    <Button href="#">Left</Button>
-                    <PopoverContent title="Left title" position="left">
+                    <Button href="#" role="button">
+                        Left
+                    </Button>
+                    <PopoverContent
+                        title="Left title"
+                        position="left"
+                        aria-label="Informações em tooltip">
                         <span>
                             Lorem Ipsum is simply dummy text of the printing and typesetting
                             industry.
                         </span>
-                        <LinkButton href="#">Lorem Ipsum</LinkButton>
+                        <LinkButton href="#" role="button">
+                            Lorem Ipsum
+                        </LinkButton>
                     </PopoverContent>
                 </PopoverWrapper>
             </HomeWrapper>

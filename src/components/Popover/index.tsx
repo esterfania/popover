@@ -108,22 +108,22 @@ interface PopoverContentProps {
 
 export function PopoverContent(props: PopoverContentProps) {
     return props.position === 'top' ? (
-        <PopoverOnTop>
+        <PopoverOnTop role="tooltip" aria-label="Content displayed on hover">
             <p>{props.title}</p>
             {props.children}
         </PopoverOnTop>
     ) : props.position === 'bottom' ? (
-        <PopoverOnBottom>
+        <PopoverOnBottom role="tooltip" aria-label="Content displayed on hover">
             <p>{props.title}</p>
             {props.children}
         </PopoverOnBottom>
     ) : props.position === 'left' ? (
-        <PopoverOnLeft>
+        <PopoverOnLeft role="tooltip" aria-label="Content displayed on hover">
             <p>{props.title}</p>
             {props.children}
         </PopoverOnLeft>
     ) : (
-        <PopoverOnRight>
+        <PopoverOnRight role="tooltip" aria-label="Content displayed on hover">
             <p>{props.title}</p>
             {props.children}
         </PopoverOnRight>

@@ -60,10 +60,7 @@ export default function Home() {
                     <Button href="#" role="button">
                         Top
                     </Button>
-                    <PopoverContent
-                        title="Top title"
-                        position="top"
-                        aria-label="Informações em tooltip">
+                    <PopoverContent title="Top title" position="top">
                         <span>
                             Lorem Ipsum is simply dummy text of the printing and typesetting
                             industry.
@@ -77,10 +74,7 @@ export default function Home() {
                     <Button href="#" role="button">
                         Right
                     </Button>
-                    <PopoverContent
-                        title="Right title"
-                        position="right"
-                        aria-label="Informações em tooltip">
+                    <PopoverContent title="Right title" position="right">
                         <span>
                             Lorem Ipsum is simply dummy text of the printing and typesetting
                             industry.
@@ -95,10 +89,7 @@ export default function Home() {
                     <Button href="#" role="button">
                         Bottom
                     </Button>
-                    <PopoverContent
-                        title="Bottom title"
-                        position="bottom"
-                        aria-label="Informações em tooltip">
+                    <PopoverContent title="Bottom title" position="bottom">
                         <span>
                             Lorem Ipsum is simply dummy text of the printing and typesetting
                             industry.
@@ -113,10 +104,7 @@ export default function Home() {
                     <Button href="#" role="button">
                         Left
                     </Button>
-                    <PopoverContent
-                        title="Left title"
-                        position="left"
-                        aria-label="Informações em tooltip">
+                    <PopoverContent title="Left title" position="left">
                         <span>
                             Lorem Ipsum is simply dummy text of the printing and typesetting
                             industry.
